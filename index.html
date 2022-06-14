@@ -9,7 +9,25 @@
 </head>
 
 <body>
-
+    <div class="con">
+        <table>
+            <thead>
+                <tr>
+                    <th class="th">Merchant_id</th>
+                    <th class="th">Merchant_name</th>
+                    <th class="th">Country</th>
+                    <th class="th">Credit</th>
+                    <th class="th">Debt</th>
+                    <th class="th">Balance</th>
+                    <?php
+            if(isset($admin)){
+               echo '
+              <th class="th"></th>';}
+            ?>
+                </tr>
+            </thead>
+    </div>
+    </table>
 </body>
 
 </html>
